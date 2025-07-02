@@ -1,0 +1,159 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.Heading
+{
+    animation: heading 2s ease-in-out infinite;
+    font-size: 30px;
+    margin-top:15px;
+
+}
+@keyframes heading 
+{
+    0%
+    {
+        color: black;
+        text-shadow: 2px 2px 4px blue; 
+    }    
+    20%
+    {
+        color: yellow;
+        text-shadow: 2px 2px 4px green; 
+    }
+    50%
+    {
+        color: red;
+        text-shadow: 2px 2px 4px yellow; 
+    }
+    80%
+    {
+        color: blue;
+        text-shadow: 2px 2px 4px black; 
+    }
+}
+.navigation
+{
+    display: flex;
+    background-color: orange;
+    height: 80px;
+    width: 100%;
+    left: 10px;
+    position: fixed;
+    margin-left: -9px;
+    z-index: 1000;
+}
+ul
+{
+    display: flex;
+    gap: 17px;
+    list-style: none;
+    margin-left: 900px;
+    padding-top: 25px;
+}
+li a
+{
+    margin-top: 10px;
+    text-decoration: none;
+}
+a
+{
+ display: flex;   
+ text-decoration: none;
+}
+ul button
+{
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px 5px;
+    font-size: 15px;
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul button:hover
+{
+    color: white;
+    background:blue;
+    opacity: 0.8;
+    border-radius: 10%;
+    transition: all 0.5s linear;
+}
+.sign
+{
+    margin-top: -2px;
+}
+.heading
+{
+	position: relative;
+	top: 100px;
+	text-align: center;
+	background: blue;
+	color: white;
+	height: 30px;
+	padding-top: 5px;
+	animation: animation1 1s linear infinite;
+}
+@keyframes animation1
+{
+	0%{
+		
+		color: yellow;
+	}
+	40%{
+		color: pink;
+	}
+	80%{
+		color: red;
+	}
+}
+.product
+    {
+        border: 1px solid black;
+        width: 250px;
+        padding: 10px;
+        margin: 15px;
+        margin-top: 110px;
+        margin-left: 50px;
+        float: left;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 2px 2px 12px black;
+    }
+.product:hover
+{
+    box-shadow: 5px 5px 15px black;
+}
+    .product img
+    {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .product h3
+    {
+        margin: 10px 0 5px;
+    }
+    .product p
+    {
+        margin: 5px 0;
+    }
+.btn1
+{
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    background: blue;
+}
+.btn1:hover
+{
+    color: black;
+   background: linear-gradient(yellow,red);
+    transition: all linear 2s;
+}
